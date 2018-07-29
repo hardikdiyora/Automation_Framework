@@ -1,0 +1,24 @@
+{
+   "browsers":
+      {
+         "Chrome":{
+            "driver_name":"chromedriver",
+            "windows_driver_name":"chromedriver.exe",
+            "arguments" 	: ["--no-sandbox"]
+         },
+         "InternetExplorer":{
+            "windows_driver_name": "MicrosoftWebDriver.exe"
+         },
+         "Safari":{
+            "driver_name": "safaridriver"
+         },
+         "FireFox":{
+            "driver_name": "geckodriver",
+            "windows_driver_name": "geckodriver.exe"
+         }
+      },
+   "defaults":{
+      "browser":"Firefox",
+      "driver_location":"/Users/hardikkumar.diyora/automation/drivers"
+   }
+}
